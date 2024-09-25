@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+    integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="header">
+    <div class="navbar">
+      <div class="logo">
+        <h1>PortFolio</h1>
+        <i class="fa-solid fa-bars togle"></i>
+      </div>
+      <div class="menu">
+        <a href="./index.html">Home</a>
+        <a href="./Case_Studies.html">Case Studies</a>
+        <a href="./Testimonial.html">Testimonial</a>
+        <a href="./recent.html">Recent Work</a>
+        <a href="./Get_in_touch.html">Get In Touch</a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </nav>
+
+
+  <script>
+    $(function () {
+        $('.togle').click(function () {
+            $(this).toggleClass('fa-xmark')
+            $('.menu').toggleClass('active')
+        })
+
+        $(window).scroll(function () {
+            $('.togle').removeClass('fa-xmark')
+            $('.menu').removeClass('active')
+        })
+    })
+</script>
+  <!-- Testimonials -->
+  <div class="testimonials">
+    <div class="test">
+      <h2>Testimonials</h2>
+      <p>
+        Our clients love us, and we love them too Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.
+      </p>
+    </div>
+    <div class="testi_moni">
+      <div class="cupan1">
+        <div class="cupan">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos magnam quo eum, assumenda labore reiciendis odio
+            quisquam magni autem aliquam a repudiandae. Consequatur natus, eum
+            sit vitae porro excepturi voluptate.
+          </p>
+          <div class="imggg">
+            <img src="./img/image 5.png" alt="" />
+            <span>Dheeraj</span>
+          </div>
+        </div>
+        <div class="cupan">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos magnam quo eum, assumenda labore reiciendis odio
+            quisquam magni autem aliquam a repudiandae. Consequatur natus, eum
+            sit vitae porro excepturi voluptate.
+          </p>
+          <div class="imggg">
+            <img src="./img/image 5.png" alt="" />
+            <span>Dheeraj</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cupan2">
+        <div class="cupan">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos magnam quo eum, assumenda labore reiciendis odio
+            quisquam magni autem aliquam a repudiandae. Consequatur natus, eum
+            sit vitae porro excepturi voluptate.
+          </p>
+          <div class="imggg">
+            <img src="./img/image 5.png" alt="" />
+            <span>Dheeraj</span>
+          </div>
+        </div>
+        <div class="cupan">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos magnam quo eum, assumenda labore reiciendis odio
+            quisquam magni autem aliquam a repudiandae. Consequatur natus, eum
+            sit vitae porro excepturi voluptate.
+          </p>
+          <div class="imggg">
+            <img src="./img/image 5.png" alt="" />
+            <span>Dheeraj</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
+    <!-- font-awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="header">
+        <div class="navbar">
+            <div class="logo">
+                <h1>PortFolio</h1>
+                <i class="fa-solid fa-bars togle"></i>
+            </div>
+            <div class="menu">
+                <a href="./index.html">Home</a>
+                <a href="./Case_Studies.html">Case Studies</a>
+                <a href="./Testimonial.html">Testimonial</a>
+                <a href="./recent.html">Recent Work</a>
+                <a href="./Get_in_touch.html">Get In Touch</a>
+            </div>
+            <div class="icon">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        $(function () {
+            $('.togle').click(function () {
+                $(this).toggleClass('fa-xmark')
+                $('.menu').toggleClass('active')
+            })
+            $(window).scroll(function () {
+                $('.togle').removeClass('fa-xmark')
+                $('.menu').removeClass('active')
+            })
+        })
+    </script>
+    <div class="front_section">
+        <div class="front">
+            <div class="front_detail">
+                <h1>dheeraj mandal</h1>
+                <p>
+                    As a highly motivated and technically proficient Front-End
+                    Developer, I am eager to contribute to innovative projects in a
+                    forward-thinking organization. With a strong foundation in HTML,
+                    CSS, and JavaScript, I am committed to crafting responsive and
+                    user-friendly web interfaces. I am passionate about learning new
+                    technologies and continuously improving my skills to deliver
+                    high-quality work.
+                </p>
+                <button>Let's get started ></button>
+            </div>
+            <div class="front_img">
+                <img src="img/front.png" />
+            </div>
+        </div>
+        <!-- Worked with -->
+        <div class="Skill-Section">
+            <p>Worked with :-</p>
+            <div class="All_skill">
+                <i class="fa-brands fa-html5"><span>HTML</span></i>
+                <i class="fa-brands fa-css3"><span>CSS</span></i>
+                <i class="fa-brands fa-bootstrap"><span>BootStrap</span></i>
+                <i class="fa-brands fa-js"><span>JavaScript</span></i>
+                <i class="fa-brands fa-react"><span>React</span></i>
+                <i class="fa-brands fa-quinscape"><span>API</span></i>
+                <i class="fa-brands fa-github"><span>GitHub</span></i>
+                <i class="fa-brands fa-github"><span>GitHub</span></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- case_Studies -->
+    <div id="case_Studies">
+        <div class="case">
+            <div class="case_study">
+                <h3>Case Studies</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                    iure, suscipit quisquam ex vitae, ipsum aspernatur ipsa vero non
+                    dolorum sapiente, ad at facere officiis voluptatum fugit quo modi
+                    est?
+                </p>
+            </div>
+            <div class="Fintech">
+                <div class="fintech-details">
+                    <p id="Fintech">Fintech</p>
+                    <h2>Work Name here</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                        iure, suscip. Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Sunt accusamus aliquid repellat corporis magni tenetur,
+                        quibusdam eligendi? Nihil, earum? At quibusdam obcaecati animi
+                        maxime perferendis reprehenderit sapiente, accusamus eum
+                        inventore.
+                    </p>
+                    <button id="Fin_Button">View case study ></button>
+                </div>
+                <div class="fintech-img">
+                    <img src="./img/dk2.png" alt="" />
+                </div>
+            </div>
+
+            <div class="Fintech2">
+                <div class="fintech2-img">
+                    <img src="./img/Mask group (2).png" alt="" />
+                </div>
+                <div class="fintech2-details">
+                    <p id="EdTech">EdTech</p>
+                    <h2>Work Name here</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                        iure, suscip. Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Sunt accusamus aliquid repellat corporis magni tenetur,
+                        quibusdam eligendi? Nihil, earum? At quibusdam obcaecati animi
+                        maxime perferendis reprehenderit sapiente, accusamus eum
+                        inventore.
+                    </p>
+                    <button id="EdT_butt">View case study ></button>
+                </div>
+            </div>
+
+            <div class="Fintech">
+                <div class="fintech-details">
+                    <p id="Pharma">Pharma</p>
+                    <h2>Work Name here</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                        iure, suscip. Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Sunt accusamus aliquid repellat corporis magni tenetur,
+                        quibusdam eligendi? Nihil, earum? At quibusdam obcaecati animi
+                        maxime perferendis reprehenderit sapiente, accusamus eum
+                        inventore.
+                    </p>
+                    <button id="Phar_Butt">View case study ></button>
+                </div>
+                <div class="fintech-img">
+                    <img src="./img/Mask group (3).png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="testimonials">
+        <div class="test">
+            <h2>Testimonials</h2>
+            <p>
+                Our clients love us, and we love them too Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="testi_moni">
+            <div class="cupan1">
+                <div class="cupan">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos magnam quo eum, assumenda labore reiciendis odio
+                        quisquam magni autem aliquam a repudiandae. Consequatur natus, eum
+                        sit vitae porro excepturi voluptate.
+                    </p>
+                    <div class="imggg">
+                        <img src="./img/image 5.png" alt="" />
+                        <span>Dheeraj</span>
+                    </div>
+                </div>
+                <div class="cupan">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos magnam quo eum, assumenda labore reiciendis odio
+                        quisquam magni autem aliquam a repudiandae. Consequatur natus, eum
+                        sit vitae porro excepturi voluptate.
+                    </p>
+                    <div class="imggg">
+                        <img src="./img/image 5.png" alt="" />
+                        <span>Dheeraj</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cupan2">
+                <div class="cupan">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos magnam quo eum, assumenda labore reiciendis odio
+                        quisquam magni autem aliquam a repudiandae. Consequatur natus, eum
+                        sit vitae porro excepturi voluptate.
+                    </p>
+                    <div class="imggg">
+                        <img src="./img/image 5.png" alt="" />
+                        <span>Dheeraj</span>
+                    </div>
+                </div>
+                <div class="cupan">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos magnam quo eum, assumenda labore reiciendis odio
+                        quisquam magni autem aliquam a repudiandae. Consequatur natus, eum
+                        sit vitae porro excepturi voluptate.
+                    </p>
+                    <div class="imggg">
+                        <img src="./img/image 5.png" alt="" />
+                        <span>Dheeraj</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Recent Work -->
+    <div class="recent_work">
+        <div class="recent">
+            <h2>Recent Work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                A natus voluptatem maiores alias. Molestiae voluptatem delectus velit ad,
+                aperiam eum quibusdam facilis aut reprehenderit, nam commodi perspiciatis
+                cumque voluptates illum?
+            </p>
+        </div>
+        <div class="cardes">
+            <div class="section3">
+                <img class="dk" src="./img/dk.png" alt="">
+                <h2>Work name here</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+                    eligendi unde dolor quisquam obcaecati fugiat ipsum? Necessitatibus
+                    voluptates nulla hic.
+                </p>
+                <button>Know More ></button>
+            </div>
+            <div class="section4">
+                <img class="dk" src="./img/dk2.png" alt="">
+                <h2>Work name here</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+                    eligendi unde dolor quisquam obcaecati fugiat ipsum? Necessitatibus
+                    voluptates nulla hic.
+                </p>
+                <button>Know More ></button>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- Get In Touch -->
+    <div class="get_in_touch">
+        <div class="get_touch">
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellendus consectetur provident doloremque?
+                Ex earum repudiandae officiis vero,
+                atus commodi deserunt aut facere adipisci.
+            </p>
+        </div>
+        <div class="formmm">
+            <div class="form-container">
+                <form action="#" method="post">
+                    <h2 class="contact">Contact Us</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
