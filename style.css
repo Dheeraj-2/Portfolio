@@ -273,6 +273,7 @@
     .Skill-Section p {
         margin-top: 50px;
         word-spacing: 30px;
+        word-spacing: normal;
     }
 
     .All_skill {
@@ -293,11 +294,11 @@
     .Skill-Section p {
         text-align: center;
         margin: 30px 0;
+        word-spacing: normal;
     }
 }
 
 /* case_Studies */
-
 
 #case_Studies {
     /* margin-top: 25px; */
@@ -578,7 +579,8 @@
     flex-direction: column;
     gap: 3px;
     padding: 10px;
-    border: 2px solid red;
+    border: 2px solid rgb(250, 249, 249);
+    width: 560px;
 }
 
 .cupan p {
@@ -833,4 +835,22 @@ button:hover {
     .get_touch p {
         width: 100%;
     }
+
+    button {
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+
+    }
+    .formmm{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
